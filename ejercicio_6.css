@@ -1,0 +1,14 @@
+
+.cambio:hover {
+    background-color: green;
+    color: white;
+}
+.cambio::before {
+    content: "Pasa por encima"
+}
+.cambio:hover::before {
+    content: "¡Hecho!"
+}
+
+
+
